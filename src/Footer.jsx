@@ -2,28 +2,21 @@ import { FaGithub, FaRocket } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-rgb(16, 25, 46) text-white py-4 text-center shadow-lg w-full">
+    <footer className="bg-white text-gray-800 py-6 text-center shadow-inner border-t border-gray-200 w-full">
       <div className="container mx-auto px-4">
-      <h1 className="text-2xl font-bold text-center">Helpmate AI</h1>
-        <p className="text-sm text-gray-300 mb-4">
-         Helpmate AI has been selected for the Gemini API Developer Competition and is recognized by Google AI.
+        <h1 className="text-2xl font-bold text-orange-500 tracking-wide">KRITAN AI</h1>
+        <p className="text-sm text-gray-600 mt-2">
+          Kritan AI is powered by <span className="text-sky-600 font-semibold">Gemini AI</span> for natural and intelligent conversations.
         </p>
-        <div className="flex justify-center space-x-4 mb-3">
+        <div className="flex justify-center items-center space-x-4 mt-4">
           <a
-            href="https://github.com/codeaashu/Helpmate-AI"
-            className="text-blue-400 hover:text-white transform hover:scale-110 transition duration-300 flex items-center"
+            href="#"
+            className="text-gray-700 hover:text-orange-500 transition duration-300 flex items-center"
           >
-            <FaGithub className="mr-1" /> GitHub
-          </a>
-          <span className="text-gray-500">|</span>
-          <a
-            href="https://ai.google.dev/competition/projects/helpmate-ai"
-            className="text-blue-400 hover:text-white transform hover:scale-110 transition duration-300 flex items-center"
-          >
-            <FaRocket className="mr-1" /> Vote Now
+            <FaRocket className="mr-2" /> Launch App
           </a>
         </div>
-        <p className="text-xs text-gray-500">&copy; 2025 HelpMate AI. All rights reserved.</p>
+        <p className="text-xs text-gray-400 mt-4">&copy; 2025 Kritan AI.</p>
       </div>
     </footer>
   );

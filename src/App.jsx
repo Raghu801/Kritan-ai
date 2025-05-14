@@ -149,9 +149,9 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-gray-950 text-white">
+    <div className="flex flex-col min-h-screen bg-blue-900 text-white">
       <nav className="p-4 bg-[#040E23]">
-        <h1 className="text-2xl font-bold text-center">Helpmate AI</h1>
+        <h1 className="text-2xl font-bold text-center text-orange-500">KRITAN AI</h1>
       </nav>
       <div className="flex-grow p-4">
         <div className="chat-display space-y-4">
@@ -187,7 +187,7 @@ function App() {
       <form onSubmit={generateAnswer} className="flex items-center w-full bg-gray-900 p-3">
         <textarea
           required
-          className="border border-gray-800 bg-gray-800 text-white rounded-lg w-full p-2 h-12 resize-none focus:border-blue-500 outline-none"
+          className="border border-gray-800 bg-white text-black rounded-lg w-full p-2 h-12 resize-none focus:border-blue-500 outline-none"
           value={question}
           onChange={(e) => setQuestion(e.target.value)}
           placeholder="Your AI mate is here to help!"

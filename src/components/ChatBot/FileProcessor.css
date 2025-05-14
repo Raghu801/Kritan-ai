@@ -1,0 +1,60 @@
+.chatbot-processor {
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.file-section {
+  background: #f5f7fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.output-section {
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.session-history {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.session-history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.session-history li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background: #4338ca;
+}
